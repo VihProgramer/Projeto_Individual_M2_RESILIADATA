@@ -1,0 +1,55 @@
+Quais são as entidades necessárias?
+
+Empresa
+Tecnologia
+Colaborador
+
+Quais são os principais campos e seus respectivos tipos?
+
+Empresa:
+idEmpresa (INT)
+cnpj (VARCHAR(18))
+nome (VARCHAR(255))
+nomeFantasia (VARCHAR(255))
+areaAtuacao (VARCHAR(255))
+endereco (VARCHAR(255))
+telefone (VARCHAR(255))
+email (VARCHAR(255))
+idTecnologia (INT)
+Colaborador:
+idColaborador (INT)
+nome (VARCHAR(255))
+cpf (VARCHAR(14))
+setor (VARCHAR(255))
+telefone (VARCHAR(14))
+idEmpresa (INT)
+Tecnologia:
+idTecnologia (INT)
+nome (VARCHAR(255))
+descricao (VARCHAR(255))
+area (VARCHAR(255))
+
+Como essas entidades estão relacionadas?
+
+As relações entre as entidades são as seguintes:
+Uma empresa pode ter nenhum colaborador ou muitos colaboradores (0,n)
+Um Colaborador deve ter 1 empresa e somente 1 empresa (1,1)
+Uma empresa deve utilizar pelo menos 1 tecnologia e apenas 1 (1,1)
+Uma tecnologia pode estar associada a várias empresas ou a nenhuma empresa (0,n)
+
+Simule 2 registros para cada entidade.
+
+idEmpresa	cnpj	nome	nomeFantasia	areaAtuacao	endereco	telefone	email	idTecnologia
+1	12345678901234	Empresa A	Fantasia A	Tecnologia da Informação	Rua A, 123	(11) 1234-5678	empresa_a@example.com	1
+2	56789012345678	Empresa B	Fantasia B	Serviços Financeiros	Avenida B, 456	(22) 2345-6789	empresa_b@example.com	2
+Colaborador:
+
+idColaborador	nome	cpf	setor	telefone	idEmpresa
+1	João Silva	123.456.789-01	TI	(11) 1234-5678	1
+2	Maria Santos	234.567.890-12	Finanças	(22) 2345-6789	2
+Tecnologia:
+
+idTecnologia	nome	descricao	area
+1	Java	Linguagem de programação	Desenvolvimento de software
+2	Python	Linguagem de programação	Ciência de dados
+Essa é uma simulação com dados fictícios apenas para ilustrar como seriam os registros em cada entidade.
