@@ -1,17 +1,13 @@
 <h1>🎲 Projeto Individual Modulo 2 - RESILIADATA</h1>
 <p>Este repositório contém o projeto do banco de dados para o sistema RESILIADATA, que visa auxiliar na avaliação das tecnologias utilizadas pelas empresas parceiras e seus colaboradores.</p>
-<br>
 <h3>📌Contexto</h3>
 <p>O sistema RESILIADATA requer um banco de dados para armazenar informações sobre empresas parceiras, tecnologias utilizadas por essas empresas e colaboradores associados a elas. Para realizar essa modelagem, é necessário responder algumas perguntas:</p>
-<br>
 <h3>📌 Modelos do Banco de Dados</h3>
     <h5>Modelo Conceitual</h5>
-    <br>
-    <img src="" alt="Modelo Conceitual" title="Modelo Conceitual">
+    <img src="https://raw.githubusercontent.com/VihProgramer/Projeto_Individual_M2_RESILIADATA/main/Modelo%20Conceitual.png" alt="Modelo Conceitual" title="Modelo Conceitual">
     <br>
     <h5>Modelo Lógico</h5>
-    <br>
-    <img src="" alt="Modelo Lógico" title="Modelo Lógico">
+    <img src="https://raw.githubusercontent.com/VihProgramer/Projeto_Individual_M2_RESILIADATA/main/Modelo%20L%C3%B3gico.png" alt="Modelo Lógico" title="Modelo Lógico">
     <br>
 <h3>❔ Perguntas e Respostas</h3>
 <ol>
@@ -52,7 +48,7 @@
         </p></li></ul>
     <li>Simule 2 registros para cada entidade.</li>
         <ul><li><strong>Simulação de Registros:<br></strong>
-            <img src="" alt="Simulação de Registros" title="Simulação de Registros"><br>
+            <img src="https://raw.githubusercontent.com/VihProgramer/Projeto_Individual_M2_RESILIADATA/main/Simula%C3%A7%C3%A3o%20de%20Registros.png" alt="Simulação de Registros" title="Simulação de Registros"><br>
         </li></ul>
 </ol>
 
